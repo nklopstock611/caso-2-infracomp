@@ -10,7 +10,6 @@ public class TLB {
 
     public TLB(Integer pN) {
         this.n = pN;
-        System.out.println(this.n);
         for (int i = 0; i < this.n; i++) {
             tlb.put(i, null);
         }
